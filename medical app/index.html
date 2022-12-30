@@ -9,16 +9,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./script.js">
     <title>Home</title>
   </head>
   <body>
     <header>
+      <div class="header">
+        <a href="#" class="logo">Logo</a>
+      </div>
       <input type="checkbox" id="toggler" />
       <label for="toggler" class="fas fa-bars"></label>
       <nav class="nav">
         <i class="fa-solid fa-bars navOpenBtn"></i>
-        <a href="#" class="logo">Logo</a>
         <ul class="nav-links">
           <i class="fa-solid fa-xmark navCloseBtn"></i>
           <li><a href="#">Home</a></li>
@@ -41,25 +42,88 @@
       <div class="text">
       </div>
     </section>
-    
-    <section class="healthy">
-      <div class="container">
+
+    <div class="content">
+      <section class="section">
+        <section class="gioithieu">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="text">
+                  <h2>CALORIES CALCULATE</h2>
+                </div>
+                <div class="contentin">
+                  The body wants to maintain its activity always needs calories and even if we do nothing, our body still burns energy every day. Therefore, the daily intake of calories is a nêcsary things, but it needs to be controlled appropriately to avoid deficiency or excess, which adversely affects health and the whole body.<br><br>
+                  Calculate the number of calories in your meal to have an abundant health and beautiful body.
+                </div>
+                <p>
+                  <a class="button" title="Start calculate" href="#">Start calculate</a>
+                </p>
+              </div>
+              <div class="col-image">
+                <img src="../images/tinh-luong-calories.jpg" alt="btn">
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+
+      <section class="items" id="items">  
         <div class="text">
           <h1>CALORIES OF FOOD</h1>
         </div>
-        <div class="image">
-          <a href="#"><img src="../images/an-trai-cay-the-nao-cho-dung.jpg" alt="btn"></a>
-          <a href="#"><img src="../images/dau-thuc-vat-1.webp" alt="btn"></a>
-          <a href="#"><img src="../images/rau-xanh-03_c518511154da4656b3d6dd47e42a00be.webp" alt="btn"></a>
-          <a href="#"><img src="../images/so-co-la-2-16447236273331251818477.jpg" alt="btn"></a>
-          <a href="#"><img src="../images/luu-y-khi-an-trung2-15422776531571484857108-crop-1542277779572916946101.webp" alt="btn"></a>
+        <div class="box-container">
+          <div class="box">
+            <div class="image">
+              <a href="#"><img src="../images/an-trai-cay-the-nao-cho-dung.jpg" alt="btn"></a>
+            </div>
+            <div class="text">
+              <h3><a href="#">Fruit</a></h3>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <a href="#"><img src="../images/dau-thuc-vat-1.webp" alt="btn"></a>
+            </div>
+            <div class="text">
+              <h3><a href="#">Vegetable oils</a></h3>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <a href="#"><img src="../images/rau-xanh-03_c518511154da4656b3d6dd47e42a00be.webp" alt="btn"></a>
+            </div>
+            <div class="text">
+              <h3><a href="#">Vegetables</a></h3>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <a href="#"><img src="../images/so-co-la-2-16447236273331251818477.jpg" alt="btn"></a>
+            </div>
+            <div class="text">
+              <h3><a href="#">Black chocolate</a></h3>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <a href="#"><img src="../images/luu-y-khi-an-trung2-15422776531571484857108-crop-1542277779572916946101.webp" alt="btn"></a>
+            </div>
+            <div class="text">
+              <h3><a href="#">Food from eggs and milk</a></h3>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </section>
 
-    <section class="test">
-      <div class="container">
-        <div class="text">
+    <section class="items" id="items">  
+      <div class="text">
           <h1>LOOK UP DISEASE</h1>
         </div>
         <div class="image">
@@ -72,39 +136,28 @@
       </div>
     </section>
 
-
-    
     <section class="footer">
-    
       <div class="box-container">
   
           <div class="box">
-              <h3>quick links</h3>
-              <a href="/customer/index.html">home</a>
-              <a href="/customer/index.html">Flash sale</a>
+              <h3>Menu</h3>
+              <a href="#">Home</a>
+              <a href="#">Calories of food</a>
+              <a href="#">Look up disease</a>
           </div>
-  
-          <div class="box">
-              <h3>extra links</h3>
-              <a href="#accounts">my account</a>
-              <a href="./cart.html">my order</a>
-              <a href="#favorite">my favorite</a>
-          </div>
-  
-          <div class="box">
-              <h3>locations</h3>
-              <a href="#vietnam">Vietnam</a>
-              <a href="#japan">Japan</a>
-              <a href="#taiwan">Taiwan</a>
-          </div>
-  
+
           <div class="box">
               <h3>contact info</h3>
               <a href="#phone">+921-123-4567</a>
               <a href="#mail">group21@gmail.com</a>
               <a href="#address">District 7, HCM city</a>
-              <img src="payment.png" alt="">
           </div>
+
+          <div class="box">
+            <h3>Follow us</h3>
+            <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        </div>
   
       </div>
   
