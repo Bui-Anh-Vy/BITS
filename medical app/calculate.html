@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./calculate.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="#" class="logo">Logo</a>
+      </div>
+      <input type="checkbox" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+      <nav class="nav">
+        <i class="fa-solid fa-bars navOpenBtn"></i>
+        <ul class="nav-links">
+          <i class="fa-solid fa-xmark navCloseBtn"></i>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Calories of food</a></li>
+          <li><a href="#">Food sickness</a></li>
+        </ul>
+        
+        <a href="#" class="fa-solid fa-user search-icon"></a>
+        <a href="#">Sign in</a>
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass search-icons"></i>
+          <input type="text" placeholder="Search here">
+        </div>
+      </nav>
+    </header>
+
+    <section class="box">
+        <div class="container">
+            <div class="col">
+              <form>
+                <h1>ADD FOOD NAME</h1>
+                <div class="col-item">
+                    <div class="input-group">
+                      <label for="meal">Meal (default 100 grams):</label>
+                      <select name="meal" id="meal">
+                          <option value="" selected>Please select</option>
+                          <option value="apple">Apple: 52kcal</option>
+                          <option value="chocolate">Black chocolate</option>
+                          <option value="egg">Egg</option>
+                          <option value="carrot">Carrot</option>
+                          <option value="potato">Potato</option>
+                          <option value="soybean_oil">Soybean oil</option>
+                      </select>
+                  </div>
+                  <button>Add meal</button>
+                </div>
+              </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="total">
+      <div class="col-1">
+        <h1>TOTAL CALORIES: </h1>
+      </div>
+    </section>
+    <section class="footer">
+    
+      <div class="box-container">
+  
+          <div class="box">
+              <h3>Menu</h3>
+              <a href="#">Home</a>
+              <a href="#">Calories of food</a>
+              <a href="#">Look up disease</a>
+          </div>
+
+          <div class="box">
+              <h3>contact info</h3>
+              <a href="#phone">+921-123-4567</a>
+              <a href="#mail">group21@gmail.com</a>
+              <a href="#address">District 7, HCM city</a>
+              <img src="payment.png" alt="">
+          </div>
+
+          <div class="box">
+            <h3>Follow us</h3>
+            <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+            <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        </div>
+  
+      </div>
+  
+      <div class="credit"> created by group 21 | all rights reserved </div>
+  
+  </section>
+    
+    </body>
+    </html> 
+    
+</body>
