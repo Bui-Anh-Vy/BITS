@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 .mySlides {
@@ -19,7 +18,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: #9df5dc;
+    background: #6fecc9;
     padding: 2rem 9%;
     display: flex;
     align-items: center;
@@ -28,7 +27,6 @@ header {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   }
   
-
 .nav {
     position: fixed;
     top: 0;
@@ -124,17 +122,6 @@ a {
     color: #61ffd2;
 }
 
-.mySlides {display:none}
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-  }
-
-
   .home {
     display: flex;
     align-items: center;
@@ -143,43 +130,10 @@ a {
     background-size: cover;
     background-position: center;
     opacity: 0.6;
+    margin-top: 10vh;
+    
   }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-
   .image img {
     width: 200px;
     height: 200px;
@@ -187,40 +141,25 @@ a {
     margin-right: 10px;
   }
 
-  .healthy {
-    margin-left: auto;
-    text-align: center;
-  }
-
-  .healthy .text {
-    margin-top: 5%;
-    margin-bottom: 3%;
-  }
-
-  .test {
-    margin-left: auto;
-    text-align: center;
-  }
-
-  .test .text {
-    margin-top: 5%;
-    margin-bottom: 3%;
+  .image{
+    display: block;
   }
 
   .footer .box-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
   }
   
   .footer .box-container .box {
     flex: 1 1 2rem;
-    text-align: center;
+    text-align: left;
+    margin-left: 10rem;
   }
   
   .footer .box-container .box h3 {
     color: #333;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem 0;
     margin-top: 5rem;
   }
@@ -228,7 +167,7 @@ a {
   .footer .box-container .box a {
     display: block;
     color: #666;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 0.5rem 0;
   }
   
@@ -240,14 +179,116 @@ a {
   .footer .credit {
     text-align: center;
     padding: 1rem;
-    margin-top: 1rem;
-    padding-top: 2rem;
-    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
     color: #333;
     border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
     padding-bottom: 3rem;
   }
-  
+
+.content .row{
+  display: flex;
+}
+
+.content .col .contentin{
+  margin-right: 35%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.content .col .text{
+  margin-right: 35%;
+  margin-left: 10%;
+  margin-top: 15%;
+  color:#5ee2bd;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+
+.content .col .button {
+  margin-top: 40px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  padding: 0 45px;
+  background: #6aeaee;
+  color:#588f7f;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 25px;
+  border: solid 1px #6aeaee;
+  margin-left: 100px;
+}
+.content .col-image img{
+  width: 120%;
+  height: 120%;
+  text-align: left;
+}
+
+.content .col-image {
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.items {
+  margin-left: auto;
+  text-align: center;
+}
+
+.items .text {
+  margin-top: 5%;
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+
+.items .text h1 {
+  color: #368f76;
+}
+
+.items .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-left: 2%;
+}
+
+.items .box-container .box {
+  flex: 0 0 1rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+.items .box-container .box .image {
+  position: relative;
+  text-align: center;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+
+.items .box-container .box .image img {
+  height: 10rem;
+}
+
+.items .box-container .box .text {
+  padding: 1rem;
+  text-align: center;
+}
+
+.items .box-container .box .text h3 {
+  font-size: 1rem;
+  color: #333;
+}
+
+.items .box-container .box .text h3:hover {
+  text-decoration: underline;
+}
+
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
